@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: wmk-application
+  name: argocd-application
   namespace: argocd
 spec:
   project: default
@@ -12,7 +12,7 @@ spec:
     path: wmk
   destination: 
     server: https://kubernetes.default.svc
-    namespace: wmk-app
+    namespace: demo-wmk-app
 
   syncPolicy:
     syncOptions:
