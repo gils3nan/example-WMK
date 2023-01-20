@@ -15,7 +15,7 @@ Commands to set up the `demo-wmk-app` application running on the same cluster as
 4. Wait for confirmation of application configuration
 5. Check that the application appears in your ArgoCD UI
 6. To view the application site - Run `kubectl -n <NAMESPACE> get services <SERVICE-NAME>` to get the running ports.
-7. Open a new tab in the terminal `to run the port forwading command `kubectl port-forward svc/<SERVICE-NAME> -n <NAMESPACE> <PORT-FORWORD-TO>:<PORT-FROM-PREVIOUS-STEP>`
+7. Open a new tab in the terminal to run the port forwading command `kubectl port-forward svc/<SERVICE-NAME> -n <NAMESPACE> <PORT-FORWORD-TO>:<PORT-FROM-PREVIOUS-STEP>`
 8. In the browser navigate to `http://localhost:<PORT-FORWORD-TO>/` and set up the WP application.
 
 #### References:
