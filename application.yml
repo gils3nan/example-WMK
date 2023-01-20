@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/gils3nan/example-WMK.git
     targetRevision: HEAD
-    path: dev
+    path: wmk
   destination: 
     server: https://kubernetes.default.svc
     namespace: wmk-app
